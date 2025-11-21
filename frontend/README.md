@@ -37,7 +37,6 @@ npm run dev
 
 Acesse:
 
-arduino
 ```
 http://localhost:5173
 ```
@@ -50,6 +49,8 @@ O backend não está rodando.
 Porta errada (front usa 5173, back usa 8080).
 
 CORS bloqueando (verifique backend).
+
+---
 
 🔌 3. Como consumir a API
 Exemplo GET usando Axios:
@@ -91,6 +92,9 @@ public class CorsConfig {
     }
 }
 ```
+
+---
+
 🚀 4. Deploy no Vercel
 Passos:
 
@@ -121,3 +125,21 @@ E no código:
 ```
 axios.get(`${import.meta.env.VITE_API_URL}/alunos`);
 ```
+
+----
+
+## 5. Imagens
+
+Nesse projeto seguindo o caminho:
+
+```
+/frontend/screenschots
+```
+
+Você pode ver imagens do projeto, como uso do swagger, docker, api, etc..
+
+5.1 Imagem do Sistema de Cadastro de alunos em modo web
+![Descrição da imagem](frontend/screenshots/CapturaFrontendaAlunos1.png)
+
+5.2 Imagem do Sistema de Matricula em modo mobile
+![Descrição da imagem](frontend/screenshots/CapturaFrontendaMatricula2.png)
