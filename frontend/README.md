@@ -139,7 +139,9 @@ Nesse projeto seguindo o caminho:
 Você pode ver imagens do projeto, como uso do swagger, docker, api, etc..
 
 5.1 Imagem do Sistema de Cadastro de alunos em modo web
-![Descrição da imagem](frontend/screenshots/CapturaFrontendaAlunos1.png)
+
+![Descrição da imagem](/frontend/screenshots/CapturaFrontendaAlunos1.png)
 
 5.2 Imagem do Sistema de Matricula em modo mobile
-![Descrição da imagem](frontend/screenshots/CapturaFrontendaMatricula2.png)
+
+![Descrição da imagem](/frontend/screenshots/CapturaFrontendaMatricula2.png)
