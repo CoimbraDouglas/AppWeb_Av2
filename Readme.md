@@ -13,13 +13,14 @@ Ele foi desenvolvido para fins educacionais, demonstrando:
 
 ## 📁 Estrutura do Repositório
 
-´´´
+```
 /backend
 └─ README.md ← Documentação completa da API
 /frontend
 └─ README.md ← Como rodar e consumir a API
 README.md ← Este arquivo
-´´´
+```
+
 ---
 
 Cada parte do projeto tem seu próprio README detalhado para facilitar o estudo.
