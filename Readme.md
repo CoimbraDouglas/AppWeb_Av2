@@ -1,4 +1,5 @@
 # 🎓 Sistema Acadêmico — Projeto Completo  
+
 Este repositório contém um sistema acadêmico dividido em **Backend (Spring Boot)** e **Frontend (React)**.  
 Ele foi desenvolvido para fins educacionais, demonstrando:  
 - API REST completa  
@@ -12,12 +13,13 @@ Ele foi desenvolvido para fins educacionais, demonstrando:
 
 ## 📁 Estrutura do Repositório
 
+´´´
 /backend
 └─ README.md ← Documentação completa da API
 /frontend
 └─ README.md ← Como rodar e consumir a API
 README.md ← Este arquivo
-
+´´´
 ---
 
 Cada parte do projeto tem seu próprio README detalhado para facilitar o estudo.
@@ -39,9 +41,10 @@ Cada parte do projeto tem seu próprio README detalhado para facilitar o estudo.
 Antes de rodar qualquer parte do sistema, instale:
 
 ### 🔧 Softwares Necessários
-- **Java 17+**
-- **Maven 3.8+**
-- **Node.js 18+**
-- **Docker (opcional mas recomendado)**
-- **JMeter (para testes de carga)**
+
+- Java 17+
+- Maven 3.8+
+- Node.js 18+
+- Docker
+- JMeter (para testes de carga)
 
