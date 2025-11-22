@@ -1,7 +1,5 @@
 
-# ✅ ** FRONTEND `/frontend/README.md`**
-
----
+# ✅ FRONTEND 
 
 # 🎨 Frontend — Sistema Acadêmico (React)
 
@@ -14,6 +12,23 @@ O layout é simples, focado em aprendizado, demonstrando:
 - Tela de listagem
 - Integração entre backend + frontend
 
+---
+
+## Para conferir esse projeto no VERCEL
+
+Bastar clicar no link a baixo: https://appweb-aluno-matricula.vercel.app
+
+Para ver os builds logs: https://appweb-aluno-matricula-git-main-douglascoimbras-projects.vercel.app
+
+---
+
+## Informação Adicional
+
+Esse projeto tem uma pasta com imagens do projeto detalhada e documentação basta acessar:
+
+```
+frontend/screenshots
+```
 ---
 
 # 🧪 1. Tecnologias
@@ -96,7 +111,9 @@ public class CorsConfig {
 ---
 
 🚀 4. Deploy no Vercel
-Passos:
+
+Como fazer o deploy no Vercel
+4.1 Primeiro:
 
 Crie conta: https://vercel.com
 
@@ -105,14 +122,17 @@ Clique em New Project
 Selecione seu repositório GitHub
 
 Configure:
-
+```
 Framework: React
-
+```
+```
 Diretório: /frontend
+```
 
 Deploy
 
 ❗ Importante:
+
 Se seu backend estiver em Render/Vercel, atualize o arquivo .env:
 
 ini
@@ -126,11 +146,17 @@ E no código:
 axios.get(`${import.meta.env.VITE_API_URL}/alunos`);
 ```
 
+Pronto! 
+
+Se você quiser conferir esse projeto já no meu VERCEL, basta clicar no link abaixo
+
+https://appweb-aluno-matricula.vercel.app
+
 ----
 
 ## 5. Imagens
 
-Nesse projeto seguindo o caminho:
+Esse projeto contém imagem e documentação bem detalhada na pasta seguindo o caminho:
 
 ```
 /frontend/screenschots
