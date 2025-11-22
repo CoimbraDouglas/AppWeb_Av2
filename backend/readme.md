@@ -51,11 +51,19 @@ Se der erro "port 8080 already in use", significa que outro app está usando a p
 ---
 
 📄 3. Como acessar o Swagger (documentação da API)
+
 Acesse:
 
 ```
 http://localhost:8080/swagger-ui.html
 ```
+
+Eu também coloquei nesse projeto prints e a documentação em **pdf** basta acessar a pasta:
+
+```
+frontend/screenshots
+```
+
 
 O projeto possui autenticação Basic.
 
@@ -155,6 +163,21 @@ Se aparecer erro de login:
 ---
 
 ⚡ 6. Testes de carga/stress (JMeter)
+
+Eu fiz testes para esse projeto com o JMETER. Baixei os logs de testes e adicionei ao projeto na pasta 
+```
+backend/testes
+```
+
+Você pode acessar os arquivos .jmx para conferir. 
+
+```
+backend/testes/Carga Alunos e Cursos..jmx
+ou
+backend/testes/sistema-academico-loadtest.jmx
+```
+
+Agora se quiser fazer você mesmo os testes, basta seguir esse passo a passo.
 
 ✔ 6.1. Instale o Apache JMeter
 Site oficial: https://jmeter.apache.org
