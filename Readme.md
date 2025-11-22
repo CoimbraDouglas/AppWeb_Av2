@@ -34,14 +34,25 @@ Cada parte do projeto tem seu próprio README detalhado para facilitar o estudo.
 
 ---
 
+## Projeto hospedado no VERCEL 
+
+Para acessar bastar clicar nesse link: appweb-aluno-matricula.vercel.app
+
+ou, para acesso aos builds logs
+
+https://appweb-aluno-matricula-git-main-douglascoimbras-projects.vercel.app
+
+---
 ## 📌 Requisitos gerais
 
 Antes de rodar qualquer parte do sistema, instale:
 
 ### 🔧 Softwares Necessários
+
 - **Java 17+**
 - **Maven 3.8+**
 - **Node.js 18+**
-- **Docker (opcional mas recomendado)**
+- **Docker**
 - **JMeter (para testes de carga)**
+- **VERCEL (crie uma conta grátis pelo site)**
 
