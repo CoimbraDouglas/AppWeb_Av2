@@ -26,16 +26,34 @@ Esse projeto tem uma pasta com imagens do projeto detalhada e documentação bas
 ```
 frontend/screenshots
 ```
+
+---
+
+⚡ Testes de carga/stress (JMeter)
+
+Eu fiz testes para esse projeto com o JMETER. Baixei os logs de testes e adicionei ao projeto na pasta 
+```
+backend/testes
+```
+
+Você pode acessar os arquivos .jmx para conferir. 
+
+```
+backend/testes/Carga Alunos e Cursos..jmx
+ou
+backend/testes/sistema-academico-loadtest.jmx
+```
+
 ---
 
 ## 📁 Estrutura do Repositório
 
 ```
 /backend
-└─ README.md ← Documentação completa da API
+└─ README.md ← Documentação completa do backend da API
 /frontend
-└─ README.md ← Como rodar e consumir a API
-README.md ← Este arquivo
+└─ README.md ← Como rodar, visualizar e consumir a API
+README.md ← Este arquivo contendo uma descrição geral do projeto
 ```
 
 ---
