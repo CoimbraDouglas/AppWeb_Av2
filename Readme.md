@@ -11,6 +11,23 @@ Ele foi desenvolvido para fins educacionais, demonstrando:
 
 ---
 
+## Para conferir esse projeto no VERCEL
+
+Bastar clicar no link a baixo: https://appweb-aluno-matricula.vercel.app
+
+Para ver os builds logs: https://appweb-aluno-matricula-git-main-douglascoimbras-projects.vercel.app
+
+---
+
+## Informação Adicional
+
+Esse projeto tem uma pasta com imagens do projeto detalhada e documentação basta acessar:
+
+```
+frontend/screenshots
+```
+---
+
 ## 📁 Estrutura do Repositório
 
 ```
@@ -36,6 +53,7 @@ Cada parte do projeto tem seu próprio README detalhado para facilitar o estudo.
 | `/docs` (opcional) | Caso deseje adicionar diagramas, prints e documentação adicional |
 
 ---
+
 
 ## 📌 Requisitos gerais
 
