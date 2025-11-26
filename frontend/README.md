@@ -1,16 +1,147 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ✅ ** FRONTEND `/frontend/README.md`**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🎨 Frontend — Sistema Acadêmico (React)
 
-## React Compiler
+Este é o frontend do Sistema Acadêmico, criado em **React**, consumindo a API desenvolvida em Spring Boot.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O layout é simples, focado em aprendizado, demonstrando:
 
-## Expanding the ESLint configuration
+- Consumo de API
+- Tela de cadastro de alunos
+- Tela de listagem
+- Integração entre backend + frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# 🧪 1. Tecnologias
+
+- React 18
+- Vite (caso tenha sido usado)
+- Axios
+- JavaScript
+- HTML + CSS
+
+---
+
+# ▶ 2. Como Rodar o Frontend Localmente
+
+Na pasta `/frontend`:
+
+```
+npm install
+npm run dev
+```
+
+Acesse:
+
+```
+http://localhost:5173
+```
+
+❗ Possível problema:
+Se aparecer erro “Failed to fetch”:
+
+O backend não está rodando.
+
+Porta errada (front usa 5173, back usa 8080).
+
+CORS bloqueando (verifique backend).
+
+---
+
+🔌 3. Como consumir a API
+Exemplo GET usando Axios:
+
+js
+```
+axios.get("http://localhost:8080/api/alunos")
+  .then(res => console.log(res.data))
+  .catch(err => console.error(err));
+
+```
+
+Exemplo POST:
+
+js
+```
+axios.post("http://localhost:8080/api/alunos", {
+  nome: "Douglas",
+  email: "email@email.com"
+});
+```
+
+⚠ Atenção com CORS
+No backend você precisa liberar:
+
+java
+```
+@Configuration
+public class CorsConfig {
+    @Bean
+    public CorsFilter corsFilter() {
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        CorsConfiguration config = new CorsConfiguration();
+        config.addAllowedOrigin("http://localhost:5173");
+        config.addAllowedMethod("*");
+        config.addAllowedHeader("*");
+        source.registerCorsConfiguration("/**", config);
+        return new CorsFilter(source);
+    }
+}
+```
+
+---
+
+🚀 4. Deploy no Vercel
+Passos:
+
+Crie conta: https://vercel.com
+
+Clique em New Project
+
+Selecione seu repositório GitHub
+
+Configure:
+
+Framework: React
+
+Diretório: /frontend
+
+Deploy
+
+❗ Importante:
+Se seu backend estiver em Render/Vercel, atualize o arquivo .env:
+
+ini
+```
+VITE_API_URL=https://seu-backend-no-render.com/api
+```
+
+E no código:
+
+```
+axios.get(`${import.meta.env.VITE_API_URL}/alunos`);
+```
+
+----
+
+## 5. Imagens
+
+Nesse projeto seguindo o caminho:
+
+```
+/frontend/screenschots
+```
+
+Você pode ver imagens do projeto, como uso do swagger, docker, api, etc..
+
+5.1 Imagem do Sistema de Cadastro de alunos em modo web
+
+![Descrição da imagem](/frontend/screenshots/CapturaFrontendaAlunos1.png)
+
+5.2 Imagem do Sistema de Matricula em modo mobile
+
+![Descrição da imagem](/frontend/screenshots/CapturaFrontendaMatricula2.png)
