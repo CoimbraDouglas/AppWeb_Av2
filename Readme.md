@@ -39,7 +39,7 @@ backend/testes
 Você pode acessar os arquivos .jmx para conferir. 
 
 ```
-backend/testes/Carga Alunos e Cursos..jmx
+backend/testes/Carga Alunos e Cursos.jmx
 ou
 backend/testes/sistema-academico-loadtest.jmx
 ```
@@ -68,7 +68,6 @@ Cada parte do projeto tem seu próprio README detalhado para facilitar o estudo.
 |------|-----------|
 | `/backend` | API REST em Spring Boot (Java) |
 | `/frontend` | Interface web em React que consome a API |
-| `/docs` (opcional) | Caso deseje adicionar diagramas, prints e documentação adicional |
 
 ---
 
