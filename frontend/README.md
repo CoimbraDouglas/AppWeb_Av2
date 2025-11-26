@@ -67,7 +67,7 @@ CORS bloqueando (verifique backend).
 
 ---
 
-🔌 3. Como consumir a API
+# 🔌 3. Como consumir a API
 Exemplo GET usando Axios:
 
 js
@@ -110,7 +110,12 @@ public class CorsConfig {
 
 ---
 
-🚀 4. Deploy no Vercel
+# 🚀 4. Deploy no Vercel
+
+Se você quiser conferir esse projeto já no meu VERCEL, basta clicar no link abaixo
+
+https://appweb-aluno-matricula.vercel.app
+
 
 Como fazer o deploy no Vercel
 4.1 Primeiro:
@@ -148,13 +153,9 @@ axios.get(`${import.meta.env.VITE_API_URL}/alunos`);
 
 Pronto! 
 
-Se você quiser conferir esse projeto já no meu VERCEL, basta clicar no link abaixo
-
-https://appweb-aluno-matricula.vercel.app
-
 ----
 
-## 5. Imagens
+# 5. Imagens
 
 Esse projeto contém imagem e documentação bem detalhada na pasta seguindo o caminho:
 
