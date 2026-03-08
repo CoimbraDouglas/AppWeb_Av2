@@ -1,6 +1,7 @@
 # 🎓 Sistema Acadêmico — Projeto Completo  
 
 Este repositório contém um sistema acadêmico dividido em **Backend (Spring Boot)** e **Frontend (React)**.  
+
 Ele foi desenvolvido para fins educacionais, demonstrando:  
 - API REST completa  
 - Relacionamento entre entidades  
@@ -74,7 +75,7 @@ Cada parte do projeto tem seu próprio README detalhado para facilitar o estudo.
 
 ## 📌 Requisitos gerais
 
-Antes de rodar qualquer parte do sistema, instale:
+Antes de rodar qualquer parte do sistema, instale os softwares abaixo.
 
 ### 🔧 Softwares Necessários
 
@@ -83,4 +84,3 @@ Antes de rodar qualquer parte do sistema, instale:
 - Node.js 18+
 - Docker
 - JMeter (para testes de carga)
-
